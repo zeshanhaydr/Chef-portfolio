@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css3?family=Familjen+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;700&family=Poppins:wght@400;500;600;700;800&family=Rubik:wght@400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+
+img,
+svg {
+  display: block;
+}
+
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-size: var(--fs-body);
+  font-family: var(--ff-family);
+}
+
+html {
+  font-size: 10px;
+}
+
+*,
+body {
+  text-decoration: none;
+  list-style: none;
+  font-family: var(--ff-primary);
+}
+
+:root {
+  /* Headers and Nav */
+  --fs-header: 6.4rem;
+  --fs-sub-header: 2.6rem;
+  --fs-paragraph: 1.6rem;
+  --fs-primary-header-sm: 5rem;
+
+  --fs-nav: 1.6rem;
+
+  --fs-card-header: 4.6rem;
+  --fs-card-header-sm: 3.6rem;
+  /* Other font sizes (excluding headers and navs) */
+
+  --fs-500: 5.2rem;
+  --fs-300: 3.2rem;
+  --fs-200-sub: 2.6rem;
+
+  /* Font-Weights */
+  --fw-bold: 700;
+  --fw-semi: 500;
+  --fw-regular: 400;
+
+  /* Sizes (for padding and margin) */
+  --size-sm: 0.8rem;
+  --size-md: 1rem;
+  --size-lg: 1.6rem;
+
+  --size-200: 2rem;
+  --size-300: 3rem;
+  --size-400: 4rem;
+  --size-500: 5rem;
+  --size-600: 6rem;
+  --size-700: 7rem;
+  --size-800: 8rem;
+  --size-900: 9rem;
+
+  /* Colors */
+  --clr-primary-600: #ff8d1a;
+  --clr-primary-500: #ffcc8a;
+  --clr-primary-dark: #3b2311;
+  --clr-primary-400: #ffe4c1;
+  --clr-primary-300: #fce8e1;
+
+  --clr-secondary-600: #67a6ab;
+
+  /* Greys */
+
+  --clr-grey-bg: #f5f5f5;
+  --clr-grey-header: #2b2b2b;
+  --clr-grey-sub-header: #7d7d7d;
+  --clr-grey-para: #7d7d7d;
+
+  --ff-primary: Poppins;
+}
+
+/* Section About */
+.about-flex-pg02 {
+  display: flex;
+  align-items: center;
+}
+
+.right-margin-lg {
+  margin-right: var(--size-500);
+}
+
+/* Section Vision */
+
+.about-img-container-vision {
+  margin-left: var(--size-800);
+}
+
+.section-footer {
+  margin-top: 15rem;
+}
