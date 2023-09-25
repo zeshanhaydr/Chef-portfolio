@@ -92,6 +92,12 @@ body {
   --ff-primary: Poppins;
 }
 
+@media (max-width: 850px) {
+  .paragraph {
+    font-size: 1.4rem;
+  }
+}
+
 @media (max-width: 770px) {
   .footer-content-container {
     display: flex;
