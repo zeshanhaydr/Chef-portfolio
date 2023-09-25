@@ -109,13 +109,19 @@ body {
     align-items: center;
     text-align: center;
   }
-
-  /* Container Adj */
 }
 
 @media (max-width: 955px) {
   .nav-ul-list {
     display: none;
+  }
+
+  .container {
+    padding: 20px;
+  }
+
+  .container-work {
+    padding: 20px;
   }
 }
 

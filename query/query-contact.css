@@ -1,0 +1,47 @@
+@media (max-width: 955px) {
+  .nav-ul-list {
+    display: none;
+  }
+
+  .container {
+    padding: 20px;
+  }
+
+  .container-work {
+    padding: 20px;
+  }
+
+  .contact-content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .info-contact-container {
+    max-width: 100%;
+    padding: 5px 0 5px 0px;
+  }
+
+  .contact-card {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 550px) {
+  .container {
+    padding: 7px;
+  }
+
+  .info-container-contact {
+    padding: 10px 0 10px 0;
+    align-items: center;
+  }
+
+  .email-contact {
+    margin-left: 0;
+  }
+
+  .location-contact {
+    padding: 5px;
+  }
+}

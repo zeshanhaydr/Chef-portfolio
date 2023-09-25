@@ -92,10 +92,6 @@ body {
   --ff-primary: Poppins;
 }
 
-.header-contact {
-  width: 800px;
-}
-
 span {
   color: var(--clr-primary-600);
 }
@@ -106,6 +102,8 @@ span {
 
 .contact-content-container {
   display: flex;
+  flex-direction: column;
+  text-align: center;
   align-items: center;
   justify-content: space-between;
 }
@@ -114,6 +112,7 @@ span {
   background-color: var(--clr-primary-300);
   padding: var(--size-300) var(--size-900) var(--size-200) var(--size-300);
   border-radius: var(--size-md);
+  align-items: center;
 }
 
 .info-container-contact {
