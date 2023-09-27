@@ -93,6 +93,8 @@ body {
 }
 
 .cards-work-container {
+  display: flex;
+  margin-top: var(--size-500);
   flex-flow: wrap;
   gap: var(--size-900);
 }
