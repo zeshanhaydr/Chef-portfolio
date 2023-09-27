@@ -137,31 +137,19 @@ ul li a:hover {
 .nav-wrapper-hero {
   background: var(--clr-primary-300);
   border-radius: var(--size-md);
-  height: 70vh;
   width: 100vw;
   position: relative;
   width: 100%;
 }
 
 .hero-text {
-  position: absolute;
-  bottom: 50%;
-  transform: translateY(50%);
-  z-index: 10;
-  padding: 0 0 0 6rem;
+  display: flex;
+  align-items: center;
+  padding: 10px;
 }
 
 .hero-pic {
-  width: 100%;
-  height: 100%;
-}
-
-.img-container {
-  position: absolute;
-  right: 0;
-  margin-left: var(--size-400);
-  right: 10%;
-  top: 0;
+  display: none;
 }
 
 /* Section-About */
@@ -211,18 +199,12 @@ ul li a:hover {
   transition: 0.5s;
 }
 
-.cards-work-container {
-  display: flex;
-  justify-content: space-between;
-  margin-top: var(--size-900);
-}
-
 .card-content {
   margin-left: var(--size-lg);
 }
 
 /* Expertise Section */
-
+/* 
 .expertise-cont {
   background: var(--clr-primary-300);
   padding: 16rem var(--size-800) 16rem var(--size-800);
@@ -260,7 +242,7 @@ ul li a:hover {
 .manage-icon {
   height: 15%;
   width: 15%;
-}
+} */
 
 /* Footer */
 
