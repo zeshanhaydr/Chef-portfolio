@@ -93,6 +93,7 @@ body {
 }
 
 /* Queries */
+
 @media (max-width: 1322px) {
   /* Card Adjustments */
   .work-header h1 {
@@ -110,6 +111,8 @@ body {
     text-align: center;
   }
 }
+
+/* Mobile Query Nav*/
 
 @media (max-width: 955px) {
   .nav-ul-list {
