@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style/style.css" />
     <link rel="stylesheet" href="query/query-work.css" />
     <link rel="stylesheet" href="query/query-for-all.css" />
+    <script src="script.js" defer></script>
     <title>My Work</title>
   </head>
   <body>
@@ -15,6 +16,7 @@
         <div class="nav-wrapper">
           <img src="Pics/Logo.png" alt="logo" class="img-logo" />
 
+          <div class="modal"></div>
           <div class="nav-for-mobile">
             <nav class="nav-container-mobile">
               <ul class="nav-ul-list-mobile">
@@ -30,14 +32,36 @@
                 <li class="nav-list nav-size-font">
                   <a href="contact.html">Contact Me</a>
                 </li>
-                <div class="icon-close-container">
+              </ul>
+
+              <div class="icon-close-container">
+                <div class="close">
                   <img
                     src="icons/close.svg"
                     alt="icon-close"
+                    id="close-btn"
                     class="icon-close social-media-icon"
                   />
                 </div>
-              </ul>
+
+                <div class="social-media other">
+                  <img
+                    src="icons/insta.svg"
+                    alt="icon-close"
+                    class="social-media-icon"
+                  />
+                  <img
+                    src="icons/facebook.svg"
+                    alt="icon-close"
+                    class="social-media-icon"
+                  />
+                  <img
+                    src="icons/twitter.svg"
+                    alt="icon-close"
+                    class="social-media-icon"
+                  />
+                </div>
+              </div>
             </nav>
           </div>
 
@@ -62,17 +86,23 @@
             <img
               src="icons/facebook.svg"
               alt="facebook"
-              class="social-media-icon"
+              class="social-media-icon icon-invisible"
             />
             <img
               src="icons/insta.svg"
               alt="facebook"
-              class="social-media-icon"
+              class="social-media-icon icon-invisible"
             />
             <img
               src="icons/twitter.svg"
               alt="facebook"
-              class="social-media-icon"
+              class="social-media-icon icon-invisible"
+            />
+            <img
+              src="icons/hamburger.svg"
+              id="show-btn"
+              alt="icon-humber"
+              class="social-media-icon hamburger-icon"
             />
           </div>
         </div>

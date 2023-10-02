@@ -92,16 +92,43 @@ body {
 
 /* Mobile Nav Query and Style */
 
+.modal {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: -1;
+  opacity: 0;
+  transition: opacity 300ms;
+}
+
+.show {
+  opacity: 1;
+  z-index: 2;
+}
+
 .nav-for-mobile {
   position: fixed;
   z-index: 3;
+  width: 300px;
+  height: 90vh;
+  top: 0;
+  right: -100%;
   background-color: white;
   box-shadow: 0 0 38px rgba(0, 0, 0, 0.189);
-  top: 50%;
-  left: 50%;
-  padding: 18rem 24rem;
-  border-radius: var(--size-md);
-  transform: translate(-50%, -50%);
+  border-radius: 10px 0 0 10px;
+  transition: right 200ms;
+}
+
+.show-nav {
+  right: 0;
+  z-index: 3;
+}
+
+.nav-container-mobile {
+  padding: 24rem 0 0 0;
 }
 
 .nav-ul-list-mobile {
@@ -109,21 +136,37 @@ body {
   flex-direction: column;
   gap: var(--size-400);
   text-align: center;
+  align-items: center;
 }
 
 .nav-ul-list-mobile li {
-  font-size: var(--size-200);
-  max-width: 100%;
+  font-size: var(--size-lg);
 }
 
-.icon-close-container {
+.icon-close {
   position: absolute;
-  top: 8%;
+  top: 5%;
+  left: 8%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.other {
+  position: absolute;
+  top: 5%;
   right: 8%;
+}
+
+.other img {
+  width: 40px;
 }
 
 .icon-invisible {
   display: none;
+}
+
+.icon-close {
+  width: 35px;
 }
 
 @media (min-width: 956px) {

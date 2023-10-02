@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style/style-02.css" />
     <link rel="stylesheet" href="query/query-about.css" />
     <link rel="stylesheet" href="query/query-for-all.css" />
+    <script src="script.js" defer></script>
     <title>About Me</title>
   </head>
   <body>
@@ -14,7 +15,7 @@
       <div class="container">
         <div class="nav-wrapper">
           <img src="Pics/Logo.png" alt="logo" class="img-logo" />
-
+          <div class="modal"></div>
           <div class="nav-for-mobile">
           <nav class="nav-container-mobile">
             <ul class="nav-ul-list-mobile">
@@ -22,10 +23,19 @@
               <li class="nav-list nav-size-font"><a href="work.html">My Work</a></li>
               <li class="nav-list nav-size-font"><a href="about.html">About Us</a></li>
               <li class="nav-list nav-size-font"><a href="contact.html">Contact Me</a></li>
-              <div class="icon-close-container">
-                <img src="icons/close.svg" alt="icon-close" class="icon-close social-media-icon">
-              </div>
             </ul>
+
+              <div class="icon-close-container">
+                <div class="close">
+                 <img src="icons/close.svg" alt="icon-close" class="icon-close social-media-icon" id="close-btn">
+                </div>
+
+                <div class="social-media other">
+                 <img src="icons/insta.svg" alt="icon-close" class="social-media-icon">
+                 <img src="icons/facebook.svg" alt="icon-close" class="social-media-icon">
+                 <img src="icons/twitter.svg" alt="icon-close" class="social-media-icon">
+                </div>
+              </div>
           </nav>
           </div>
           
@@ -50,18 +60,19 @@
             <img
               src="icons/facebook.svg"
               alt="facebook"
-              class="social-media-icon"
+              class="social-media-icon icon-invisible"
             />
             <img
               src="icons/insta.svg"
               alt="facebook"
-              class="social-media-icon"
+              class="social-media-icon icon-invisible"
             />
             <img
               src="icons/twitter.svg"
               alt="facebook"
-              class="social-media-icon"
+              class="social-media-icon icon-invisible"
             />
+            <img src="icons/hamburger.svg" id="show-btn" alt="icon-humber" class="social-media-icon hamburger-icon">
           </div>
         </div>
       </div>
